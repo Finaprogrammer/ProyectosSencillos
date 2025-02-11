@@ -1,18 +1,3 @@
-
-def adivina_el_numero(x):
-    print("===============================================")
-    print("¡Bienvenido al juego de adivinar el número!")
-    print("===============================================")
-    print("Tu meta es adivinar el número que estoy pensando")
-
-    numero = random.randint(1, 100)
-    if x == numero:
-        return "¡Felicidades! Has adivinado el número."
-    elif x < numero:
-        return "El número es mayor que " + str(x)
-    else:
-        return "El número es menor que " + str(x)
-    
 import random
 
 def adivina_el_numero(x, numero):
